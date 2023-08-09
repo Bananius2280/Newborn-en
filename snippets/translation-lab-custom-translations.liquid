@@ -1,0 +1,35 @@
+<script>
+"use strict";!function(n){var h=/\([0-9]*?\)$/,e=/\r?\n|\r| /g,s=[];function u(t){if(t&&t.includes("_")){var e=t.split("_");if(2===e.length)return e[1].trim()?e:[e[0]]}return[t]}function c(t){return t.trim().replace(h,"").trim().toLocaleLowerCase().replace(e,"")}function v(t,e){return t?e[c(t)]:null}function r(t){var o={};return t.forEach(function(t){var i,e;t&&(i="string"==typeof(e=t)||e instanceof String?JSON.parse(t):t)&&Object.keys(i).forEach(function(t){if(t){var e="__label:";if(t.startsWith(e))return n=i[t],r=t.replace(e,""),void(o[c(r)]=n.replace(e,""));var n,r=u(t),a=u(i[t]);r.length===a.length?r.forEach(function(t,e){t!==a[e]&&(o[c(t)]=a[e])}):(n=c(t))!==(e=i[t])&&(o[n]=e)}})}),o}function b(t,e,n,r){var a,i,o,u;switch("a"===t.tagName.toLowerCase()&&(a=t,i=n,["href","data-href"].forEach(function(t){var e=a.getAttribute(t);if(!e)return!1;e.startsWith("/")&&!e.startsWith(i)&&(e="".concat(i).concat(e),a.setAttribute(t,e))})),"input"===t.tagName.toLowerCase()&&(n=r,(u=(o=t).getAttribute("type"))&&"submit"===u&&(u=v(o.getAttribute("value"),n))&&o.setAttribute("value",u)),t.tagName.toLowerCase()){case"a":return l(t,["href","data-href"],r);case"input":case"textarea":return l(t,["placeholder"],r)}return{isTranslated:!1}}function l(n,t,r){var a=!1;return t.forEach(function(t){var e=n.getAttribute(t);if(!e)return!1;e=v(e,r);return e?(n.setAttribute(t,e),a=!0):void 0}),{isTranslated:a}}function p(t,s,l,f,d,m){t.forEach(function(t){var e,n,r,a,i,o,u,c;e=s,n=l,r=f,a=d,i=m,(t=t).nodeType===Node.COMMENT_NODE||t.tagName&&-1<i.indexOf(t.tagName.toLowerCase())||null!=(c=t.textContent)&&c.trim()&&("#text"===t.nodeName?(c=v(t.textContent,a))&&(o=t.textContent.trim().replace(h,"").trim(),t.textContent=t.textContent.replace(o,c)):(t.tagName&&b(t,0,r,a),t.querySelectorAll("textarea").forEach(function(t){b(t,0,r,a)}),o=[].slice.call(t.childNodes),c=!!o.find(function(t){return"#text"===t.nodeName&&(null==(t=null==(t=null==(t=t.textContent)?void 0:t.trim())?void 0:t.replace("(",""))?void 0:t.replace(")",""))}),u=[],c&&(u=o.filter(function(t){return"#text"===t.nodeName&&v(t.textContent,a)})),0<t.childNodes.length&&(!c||0<u.length)?p(o,e++,n,r,a,i):t.innerHTML&&(c=v(t.innerHTML,a))&&(t.innerHTML=c)))})}void 0===n.TranslationLab&&(n.TranslationLab={}),void 0===n.TranslationLab.CustomTranslations&&(n.TranslationLab.CustomTranslations={}),n.TranslationLab.CustomTranslations.apply=function(i,o,t,e){var u,c;t||(u=["html","head","body","script","noscript","style","iframe","canvas","svg"],c=r(e),0!==Object.keys(c).length&&new MutationObserver(function(e,t){n.requestAnimationFrame(function(){p(e.map(function(t){return t.target}).filter(function(t,e,n){return n.indexOf(t)===e}),0,i,o,c,u);var n,r,a,t=document.querySelectorAll("iframe");n=i,r=o,a=c,t.forEach(function(t){!t||!t.contentDocument||s.includes(t)||t.id&&"admin-bar-iframe"===t.id||(s.push(t),t=t.contentDocument.documentElement,new MutationObserver(function(t,e){p(t.map(function(t){return t.target}).filter(function(t,e,n){return n.indexOf(t)===e}),0,n,r,a,[])}).observe(t,{attributes:!0,childList:!0,subtree:!0}))})})}).observe(document.documentElement,{attributes:!0,childList:!0,subtree:!0}))}}(window);
+</script>
+
+<script>
+
+{%- assign indexes = shop.metafields['tlab_translations']['index'].value -%}
+{%- capture translations_metadata -%}
+[{%- for mfReference in indexes -%}
+{%- if mfReference.templateSuffix == blank or mfReference.templateSuffix == template.suffix or template.name == 'index' and mfReference.templateSuffix contains 'home' -%}
+{%- if mfReference.templateNames.size == 0 or mfReference.templateNames contains template.name -%}
+{%- assign mfRef = shop.metafields[mfReference.metafieldNamespace][mfReference.metafieldKey].value | json -%}
+{{- mfRef -}}
+{%- endif -%}
+{%- endif -%}
+{%- unless forloop.last %},{% endunless %}{%- endfor %}
+{%- if template contains 'product' -%}
+{%- assign productCustomTranslationMetafield = product.metafields['tlab_translations']['judgeMe'].value | json -%}
+,{{- productCustomTranslationMetafield -}}
+{%- endif -%}]
+{%- endcapture %}
+
+{%- assign langPrefix = localization.language.root_url %}{% if langPrefix == '/' %}{% assign langPrefix = '' %}{% endif %}
+  
+var translationsMetadata = {{ translations_metadata }}
+
+var locale = '{{ request.locale.iso_code }}';
+
+var isPrimaryLocale = {{ request.locale.primary | json }};
+
+var rootUrl = '{{ langPrefix }}';
+
+TranslationLab.CustomTranslations.apply(locale, rootUrl, isPrimaryLocale, translationsMetadata);
+
+</script>

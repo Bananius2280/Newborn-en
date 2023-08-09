@@ -1,0 +1,184 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "40f1fe94-1db1-4f5a-9a42-4b60c09aab0f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "content": "",
+            "page": "",
+            "liquid": "{{ product.description }}",
+            "icon": "none"
+          }
+        },
+        "58772005-ffce-40ba-8987-901c185f3569": {
+          "type": "size_guide",
+          "settings": {
+            "show_size_popup": true
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "70bbe489-815e-4f89-aaee-8f79b7917887": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "ІНФОРМАЦІЯ",
+            "content": "<p>{{ product.metafields.product_fields.information | metafield_tag }}<\/p>",
+            "page": "",
+            "liquid": "",
+            "icon": "none"
+          }
+        },
+        "c1df5e55-1f87-4887-9282-ab39f4ff2c07": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "РОЗМІРНА СІТКА",
+            "content": "<p>{{ product.metafields.my_fields.size_quide_text | metafield_tag }}<\/p>",
+            "page": "",
+            "liquid": "",
+            "icon": "none"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "f1521107-756c-4ca4-9aa5-86ec8e8e8633": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery options",
+            "content": "<p>We ship orders the next day after the purchase. The only exception is Ukrainian national holidays. <br\/><br\/>Estimated delivery time:<br\/>Ukraine (Nova Poshta) - 1 - 3 days<br\/>International (Ukrposhta) - 20 - 30 days<br\/>International Express (DHL) - 7 - 12 business days<br\/><\/p><p>We ship worldwide except to terrorist countries: Russia, and Belorus.<br\/><br\/>All orders are traceable. <\/p><p>In case you need to change the shipping address, please, contact us as soon as possible - info@newbornk.com. We can make it if your package is still in the warehouse. <\/p><p>NEWBORN K store is not responsible for customs clearance costs that may apply for international delivery. The store reserves the right not to refund shipping fees for refused deliveries. <\/p>",
+            "page": "",
+            "liquid": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "40f1fe94-1db1-4f5a-9a42-4b60c09aab0f",
+        "58772005-ffce-40ba-8987-901c185f3569",
+        "quantity_selector",
+        "description",
+        "70bbe489-815e-4f89-aaee-8f79b7917887",
+        "c1df5e55-1f87-4887-9282-ab39f4ff2c07",
+        "share",
+        "f1521107-756c-4ca4-9aa5-86ec8e8e8633"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "16323088197825d104": {
+      "type": "featured-collection-slider",
+      "disabled": true,
+      "settings": {
+        "title": "ВАМ МОЖЕ СПОДОБАТИСЬ",
+        "only-title": false,
+        "collection": "frontpage",
+        "products_to_show": 6,
+        "products_to_show_mobile": 1.5,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true,
+        "show_arrow": true,
+        "brand_collection": false
+      }
+    },
+    "1627050417092b6041": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "{{ product.vendor }}",
+        "only-title": false,
+        "collection": "salomon",
+        "products_to_show": 6,
+        "products_to_show_mobile": 1.5,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true,
+        "show_arrow": true,
+        "brand_collection": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "YOU MIGHT LIKE IT",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_vendor": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16323088197825d104",
+    "1627050417092b6041",
+    "product-recommendations"
+  ]
+}

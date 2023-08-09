@@ -1,0 +1,269 @@
+{
+  "sections": {
+    "1630994380770cb550": {
+      "type": "slideshow",
+      "blocks": {
+        "1630994380b1b22eeb-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DTF-1_b3a6dbc4-c4e3-4ef0-9cda-ccbb5cece372.jpg",
+            "image_phone": "shopify:\/\/shop_images\/Ban_jan22_sale_mob-1_c248bd07-71f5-4f31-8d4d-5c6112de6f5e.jpg",
+            "banner_link": "shopify:\/\/collections\/sale",
+            "language": "EN"
+          }
+        },
+        "efa7cb34-67c3-400f-92ad-b155add48ebb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BAN_UY_1-1.jpg",
+            "image_phone": "shopify:\/\/shop_images\/Ban_gram_ukr_mob-1.jpg",
+            "banner_link": "shopify:\/\/collections\/helas",
+            "language": "EN"
+          }
+        },
+        "1630994380b1b22eeb-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Worldwide_desk.jpg",
+            "image_phone": "shopify:\/\/shop_images\/Worldwide_mob.jpg",
+            "banner_link": "shopify:\/\/collections",
+            "language": "EN"
+          }
+        },
+        "ce6d2dc3-91a2-4167-94e4-935de9a1b462": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ban_gram_eng_desk.jpg",
+            "image_phone": "shopify:\/\/shop_images\/Ban_gram_eng_mob.jpg",
+            "banner_link": "shopify:\/\/collections\/gramicci",
+            "language": "EN"
+          }
+        },
+        "1630994380b1b22eeb-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BAN_UY_1_c2c8dfac-7e2f-447f-824d-f03b5eca8fd3.jpg",
+            "image_phone": "shopify:\/\/shop_images\/BAN_UY_2_281b6a9d-73e9-4fe1-bdc6-f8b514ff517d.jpg",
+            "banner_link": "shopify:\/\/collections\/uystudio",
+            "language": "EN"
+          }
+        },
+        "7b7d3efa-43a7-4e95-a5e3-f5208d21b021": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BAN_SS_1_14a64446-23db-42ff-8f5e-423585bb71f9.jpg",
+            "image_phone": "shopify:\/\/shop_images\/BAN_SS_2_02b694a5-4d0a-4a45-bb61-009a99de6968.jpg",
+            "banner_link": "shopify:\/\/collections\/new-arrivals",
+            "language": "EN"
+          }
+        },
+        "2171dc21-b87f-41f8-99cb-a2e1491f3a34": {
+          "type": "slide",
+          "settings": {
+            "banner_link": "",
+            "language": "UK"
+          }
+        }
+      },
+      "block_order": [
+        "1630994380b1b22eeb-1",
+        "efa7cb34-67c3-400f-92ad-b155add48ebb",
+        "1630994380b1b22eeb-2",
+        "ce6d2dc3-91a2-4167-94e4-935de9a1b462",
+        "1630994380b1b22eeb-0",
+        "7b7d3efa-43a7-4e95-a5e3-f5208d21b021",
+        "2171dc21-b87f-41f8-99cb-a2e1491f3a34"
+      ],
+      "settings": {
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "swipe_on_mobile": false
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1626369903c393cced": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "NEW ARRIVALS",
+        "only-title": true,
+        "collection": "new-arrivals",
+        "products_to_show": 6.5,
+        "products_to_show_mobile": 1.6,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true,
+        "show_arrow": true,
+        "brand_collection": false
+      }
+    },
+    "1626416534da40dc37": {
+      "type": "collection-list",
+      "blocks": {
+        "1626416534da40dc37-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keep"
+          }
+        },
+        "1626416534da40dc37-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "white-sprut"
+          }
+        },
+        "1626416534da40dc37-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ofourfour"
+          }
+        }
+      },
+      "block_order": [
+        "1626416534da40dc37-0",
+        "1626416534da40dc37-1",
+        "1626416534da40dc37-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "button_overlay": true,
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1626416564a7b86704": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "HEDIRAISER",
+        "collection": "hediraiser",
+        "full_width": true,
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true,
+        "show_arrow": true
+      }
+    },
+    "ef1b3582-4d53-4b37-9f0f-8ec65df210ca": {
+      "type": "multicolumn-v3",
+      "blocks": {
+        "template--15923256557726__ef1b3582-4d53-4b37-9f0f-8ec65df210ca-16751292997ed985cd-0": {
+          "type": "column",
+          "settings": {
+            "title": "PAYMENTS",
+            "text": "Your order can be purchased by credit card online (VISA, Mastercard) or PayPal (coming soon). When purchasing online, your funds will be immediately debited from your card. All payments are secure (using Fondy payment system).",
+            "html": "<span class=\"icon-payment icon-visa\">\n<svg width=\"115\" height=\"67\" viewbox=\"0 0 115 67\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M65.799 23.6492C67.9548 23.6492 69.6984 24.1309 70.7976 24.5672L70.0397 29.2239L69.5356 28.9949C68.5272 28.5589 67.1961 28.1232 65.3842 28.1692C63.184 28.1692 62.1971 29.1093 62.1743 30.027C62.1743 31.0366 63.368 31.702 65.3172 32.6886C68.5281 34.2258 70.0174 36.1067 69.9952 38.5616C69.9501 43.0353 66.1431 45.9263 60.2954 45.9263C57.7952 45.903 55.387 45.3743 54.08 44.7785L54.8599 39.9377L55.5937 40.2822C57.4055 41.086 58.5977 41.4293 60.8227 41.4293C62.4272 41.4293 64.1476 40.7634 64.1695 39.3187C64.1695 38.3781 63.4366 37.6892 61.2805 36.634C59.1709 35.6012 56.3504 33.8808 56.3962 30.7835C56.4199 26.5855 60.2954 23.6492 65.799 23.6492ZM45.0222 45.6045H50.5952L54.0808 24.0398H48.508L45.0222 45.6045ZM78.2047 37.9649C78.6636 36.7261 80.4297 31.9313 80.4297 31.9313C80.4203 31.9498 80.4932 31.7476 80.6016 31.4471L80.6017 31.4468C80.7617 31.0031 80.9989 30.3452 81.1629 29.8667L81.5524 31.7248C81.5524 31.7248 82.6078 36.8868 82.8369 37.9649H78.2047ZM85.0839 24.0398H80.7731C79.4438 24.0398 78.4338 24.4294 77.8603 25.829L69.5822 45.6042H75.4298C75.4298 45.6042 76.3926 42.9427 76.5995 42.3694H83.7549C83.9148 43.1265 84.4198 45.6042 84.4198 45.6042H89.5799L85.0839 24.0398ZM40.365 24.0398L34.9072 38.7449L34.3109 35.7633L34.3119 35.7659L32.3626 25.855C32.0418 24.4777 31.0556 24.0877 29.8402 24.0423H20.8737L20.782 24.478C22.9687 25.0374 24.9244 25.8436 26.6381 26.8459L31.6048 45.5817H37.4982L46.258 24.0398H40.365Z\" fill=\"#404040\"><\/path>\n<\/svg>\n<\/span>\n\n<span class=\"icon-payment icon-paypal\">\n<svg width=\"115\" height=\"58\" viewbox=\"0 0 103 27\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.9117 0C17.2153 0 20.2415 1.79663 19.838 6.27554C19.3336 11.5895 16.5092 14.5248 12.0203 14.5501H8.11143C7.55662 14.5501 7.27922 15.0056 7.12791 15.9672L6.37135 20.8004C6.24526 21.5342 5.8922 21.8885 5.33739 21.8885H1.68072C1.10069 21.8885 0.898943 21.5089 1.02504 20.6739L4.05125 1.31584C4.20256 0.354264 4.55562 0 5.2113 0H13.9117ZM7.98533 10.3496H10.9611C12.8021 10.2737 14.0378 8.98313 14.1639 6.68041C14.2395 5.23805 13.2812 4.22587 11.7429 4.22587L8.94364 4.25117L7.98533 10.3496ZM29.7237 20.3702C30.0515 20.0665 30.4046 19.9147 30.3541 20.2943L30.228 21.1799C30.1776 21.6354 30.3541 21.8885 30.7828 21.8885H34.0108C34.5656 21.8885 34.8178 21.6607 34.9439 20.8257L36.9361 8.2746C37.037 7.64199 36.8857 7.33833 36.4066 7.33833H32.8508C32.5229 7.33833 32.3716 7.51546 32.2959 8.02156L32.1699 8.806C32.0942 9.21087 31.9177 9.28678 31.7411 8.88191C31.1359 7.43955 29.5976 6.80694 27.454 6.85754C22.4607 6.95876 19.1067 10.7545 18.7536 15.6382C18.4762 19.358 21.1494 22.3186 24.7052 22.3186C27.2775 22.3186 28.4375 21.5595 29.7237 20.3702ZM27.0253 18.447C24.8817 18.447 23.3938 16.7263 23.6964 14.6261C23.9991 12.5258 26.0165 10.8051 28.1601 10.8051C30.3037 10.8051 31.7916 12.5258 31.489 14.6261C31.1611 16.7263 29.1689 18.447 27.0253 18.447ZM43.2912 7.31303H40.0128C39.3319 7.31303 39.0545 7.81912 39.2815 8.45173L43.3416 20.4208L39.3319 26.089C39.0041 26.5698 39.2562 27 39.7354 27H43.4173C43.9721 27 44.2243 26.8482 44.5017 26.4686L57.01 8.45173C57.3883 7.89503 57.2118 7.31303 56.5813 7.31303H53.1012C52.4959 7.31303 52.269 7.54077 51.9159 8.04686L46.6957 15.6382L44.3756 8.02156C44.2495 7.54077 43.9217 7.31303 43.2912 7.31303Z\" fill=\"#404040\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M70.0732 0C73.3768 0 76.4031 1.79663 75.9996 6.27554C75.4952 11.5895 72.6707 14.5248 68.1818 14.5501H64.273C63.7182 14.5501 63.4408 15.0056 63.2895 15.9672L62.5329 20.8004C62.4068 21.5342 62.0538 21.8885 61.4989 21.8885H57.8675C57.2875 21.8885 57.0857 21.5089 57.2118 20.6739L60.2128 1.34114C60.3641 0.379569 60.7172 0.0253046 61.3729 0.0253046H70.0732V0ZM64.1469 10.3496H67.1227C68.9636 10.2737 70.1993 8.98313 70.3254 6.68041C70.4011 5.23805 69.4428 4.22587 67.9044 4.22587L65.1052 4.25117L64.1469 10.3496ZM85.8852 20.3702C86.2131 20.0665 86.5661 19.9147 86.5157 20.2943L86.3896 21.1799C86.3391 21.6354 86.5157 21.8885 86.9444 21.8885H90.1724C90.7272 21.8885 90.9793 21.6607 91.1054 20.8257L93.0977 8.2746C93.1986 7.64199 93.0473 7.33833 92.5681 7.33833H89.0123C88.6845 7.33833 88.5332 7.51546 88.4575 8.02156L88.3314 8.806C88.2557 9.21087 88.0792 9.28679 87.9027 8.88191C87.2974 7.43955 85.7591 6.80694 83.6156 6.85755C78.6223 6.95876 75.2682 10.7545 74.9152 15.6382C74.6378 19.4086 77.3362 22.3693 80.8667 22.3693C83.439 22.3187 84.5739 21.5595 85.8852 20.3702ZM83.1616 18.447C81.018 18.447 79.5302 16.7263 79.8328 14.6261C80.1354 12.5258 82.1529 10.8051 84.2964 10.8051C86.44 10.8051 87.9279 12.5258 87.6253 14.6261C87.3227 16.7263 85.3052 18.447 83.1616 18.447ZM98.091 21.9138H94.3586C94.056 21.9138 93.8543 21.686 93.9047 21.4077L97.1831 0.556701C97.2335 0.278351 97.5109 0.0506092 97.8136 0.0506092H101.546C101.849 0.0506092 102.05 0.278351 102 0.556701L98.7214 21.4077C98.671 21.686 98.3684 21.9138 98.091 21.9138Z\" fill=\"#B8B8B8\"><\/path>\n<\/svg>\n<\/span>\n<span class=\"icon-payment icon-master\">\n<svg width=\"115\" height=\"67\" viewbox=\"0 0 115 67\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M65.0797 20.0791H49.5786V48.2393H65.0797V20.0791Z\" fill=\"#7A7A7A\"><\/path>\n<path d=\"M50.5629 34.1638C50.5629 28.4422 53.2202 23.3674 57.3046 20.0837C54.3029 17.6955 50.5137 16.2527 46.3801 16.2527C36.5873 16.2527 28.6646 24.263 28.6646 34.1638C28.6646 44.0647 36.5873 52.0749 46.3801 52.0749C50.5137 52.0749 54.3029 50.632 57.3046 48.2439C53.2202 45.01 50.5629 39.8854 50.5629 34.1638Z\" fill=\"#404040\"><\/path>\n<path d=\"M85.9926 34.1549C85.9926 44.0558 78.0698 52.0661 68.2771 52.0661C64.1435 52.0661 60.3544 50.6233 57.3525 48.2351C61.4862 44.9514 64.0943 39.8766 64.0943 34.1549C64.0943 28.4334 61.437 23.3586 57.3525 20.0748C60.3544 17.6867 64.1435 16.2439 68.2771 16.2439C78.0698 16.2439 85.9926 24.3039 85.9926 34.1549Z\" fill=\"#B8B8B8\"><\/path>\n<\/svg>\n<\/span>"
+          }
+        },
+        "template--15923256557726__ef1b3582-4d53-4b37-9f0f-8ec65df210ca-16751292997ed985cd-1": {
+          "type": "column",
+          "settings": {
+            "title": "DELIVERY",
+            "text": "Ukraine (Nova Poshta) - 1-3 days<br>\nInternational (Ukrposhta) - 20-30 days<br>\nInt. Express (DHL) - 7-12 business days<br><br>\n\nWe ship worldwide except to terrorist countries: Russia, and Belorus.<br><br>\n\nAll orders are traceable.",
+            "html": ""
+          }
+        },
+        "44d84d80-eec3-4e17-8c0d-578da0a528aa": {
+          "type": "column",
+          "settings": {
+            "title": "RETURN",
+            "text": "As soon as you place your order, our manager will contact you for confirmation, and delivery coordination via WhatsApp, Telegram, or other messengers your phone number is connected with.<br><br>\n\nWe accept the goods back within 14 days after the order is received.",
+            "html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15923256557726__ef1b3582-4d53-4b37-9f0f-8ec65df210ca-16751292997ed985cd-0",
+        "template--15923256557726__ef1b3582-4d53-4b37-9f0f-8ec65df210ca-16751292997ed985cd-1",
+        "44d84d80-eec3-4e17-8c0d-578da0a528aa"
+      ],
+      "settings": {
+        "title": "",
+        "full_width": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1626450162f5dda00b": {
+      "type": "collection-list",
+      "blocks": {
+        "1626450162f5dda00b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "helas"
+          }
+        },
+        "1626450162f5dda00b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mod44"
+          }
+        }
+      },
+      "block_order": [
+        "1626450162f5dda00b-0",
+        "1626450162f5dda00b-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "button_overlay": false,
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16264502060c7e1d80": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "LIFESTYLE",
+        "collection": "lifestyle",
+        "full_width": true,
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_vendor": true,
+        "show_arrow": true
+      }
+    }
+  },
+  "order": [
+    "1630994380770cb550",
+    "image_banner",
+    "1626369903c393cced",
+    "1626416534da40dc37",
+    "1626416564a7b86704",
+    "ef1b3582-4d53-4b37-9f0f-8ec65df210ca",
+    "1626450162f5dda00b",
+    "16264502060c7e1d80"
+  ]
+}

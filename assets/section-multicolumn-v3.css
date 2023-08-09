@@ -1,0 +1,48 @@
+.multicolumn-v3 .multicolumn-card__info h2 {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #000000;
+    margin-bottom: 4rem;
+}
+.multicolumn-v3 .multicolumn-card__info .column-text {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 29px;    
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;    
+    color: #1D1D1B;
+    max-width: 465px;
+    margin: 0 auto;
+}
+.multicolumn-v3 .multicolumn-card__info .column-html {
+    padding-top: 20px;
+}
+.icon-payment svg {
+  max-width: 90px;
+}
+.icon-payment.icon-visa {
+  padding-top: 3px;
+}
+
+@media (min-width: 990px) {
+.multicolumn-v3 .multicolumn-card__info h2 {
+    font-size: 50px;
+}
+.multicolumn-v3 .multicolumn-card__info .column-text {
+    font-size: 16px;
+}
+.multicolumn-v3 .multicolumn-card__info .column-html {
+    padding-top: 20px;
+} 
+  .icon-payment {
+  max-width: 115px;
+}
+}
