@@ -572,6 +572,9 @@ if(!window.initVar){
           if (this.variants.length === 1 && this.variants[0].text.toLowerCase() === "default title") {
             return false
           }
+          if (this.variants.length === 0) {
+            return false
+          }
           return true
         },
         getDefaultCountry() {
@@ -609,7 +612,19 @@ if(!window.initVar){
       subscribedText: "We will notify you when price drops",
       modalHtml: `{priceDropModalHtml}`
     },
-    customJs: `initVar.addStockFulfilledButtonV2Enabled = true;`,
+    customJs: `initVar.addStockFulfilledButtonV2Enabled = true;
+
+initVar.checkIfInStock= (variant, product)=>{
+let doNotShowTagExist=product.tags && product.tags.some(x=>x.toLowerCase()==="crbt-bs-hide");
+console.log("Grow DoNotShowTag exist",doNotShowTagExist);
+if(doNotShowTagExist){
+return true;
+}
+ if (variant.available) {
+      return true;
+    }
+    return false;
+};`,
     customCss: `null`,
     dataVariantId: "data-variant-id",
     dataProductId: "data-product-id",
@@ -940,7 +955,7 @@ if(!window.initVar){
       if (!variantId)
         variantId = parseInt(initVar.getQueryParam('variant'))
       if (!variantId) {
-        variantId = parseInt(ShopifyAnalytics && ShopifyAnalytics.meta && ShopifyAnalytics.meta.selectedVariantId)
+        variantId = parseInt(window.ShopifyAnalytics && window.ShopifyAnalytics.meta && window.ShopifyAnalytics.meta.selectedVariantId)
         let variant = product.variants.find(x => Number(x.id) === Number(variantId))
         if (!variant)
           variantId = null

@@ -6,18 +6,18 @@
         "1630994380b1b22eeb-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DTF-1_b3a6dbc4-c4e3-4ef0-9cda-ccbb5cece372.jpg",
-            "image_phone": "shopify:\/\/shop_images\/Ban_jan22_sale_mob-1_c248bd07-71f5-4f31-8d4d-5c6112de6f5e.jpg",
-            "banner_link": "shopify:\/\/collections\/sale",
+            "image": "shopify:\/\/shop_images\/Frame_566882_139d8f3f-1629-4493-97b4-665f98003d7a.jpg",
+            "image_phone": "shopify:\/\/shop_images\/Frame_566883.jpg",
+            "banner_link": "shopify:\/\/collections\/new-arrivals",
             "language": "EN"
           }
         },
         "efa7cb34-67c3-400f-92ad-b155add48ebb": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BAN_UY_1-1.jpg",
-            "image_phone": "shopify:\/\/shop_images\/Ban_gram_ukr_mob-1.jpg",
-            "banner_link": "shopify:\/\/collections\/helas",
+            "image": "shopify:\/\/shop_images\/Frame_566880.jpg",
+            "image_phone": "shopify:\/\/shop_images\/Ban_jan22_sale_mob_297499d1-948b-4bd8-8d44-7794f7f5bfac.jpg",
+            "banner_link": "shopify:\/\/collections\/pleasures",
             "language": "EN"
           }
         },
@@ -33,14 +33,15 @@
         "ce6d2dc3-91a2-4167-94e4-935de9a1b462": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ban_gram_eng_desk.jpg",
-            "image_phone": "shopify:\/\/shop_images\/Ban_gram_eng_mob.jpg",
+            "image": "shopify:\/\/shop_images\/Frame_566881.jpg",
+            "image_phone": "shopify:\/\/shop_images\/Ban_jan22_sale_mob_4f57104b-eb27-42dc-a0d6-258990b4eb95.jpg",
             "banner_link": "shopify:\/\/collections\/gramicci",
             "language": "EN"
           }
         },
         "1630994380b1b22eeb-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/BAN_UY_1_c2c8dfac-7e2f-447f-824d-f03b5eca8fd3.jpg",
             "image_phone": "shopify:\/\/shop_images\/BAN_UY_2_281b6a9d-73e9-4fe1-bdc6-f8b514ff517d.jpg",
@@ -115,19 +116,19 @@
         "1626416534da40dc37-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "keep"
+            "collection": "thanks-london"
           }
         },
         "1626416534da40dc37-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "white-sprut"
+            "collection": "dickies"
           }
         },
         "1626416534da40dc37-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ofourfour"
+            "collection": "liquix"
           }
         }
       },
@@ -214,13 +215,13 @@
         "1626450162f5dda00b-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "helas"
+            "collection": "gingin"
           }
         },
         "1626450162f5dda00b-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "mod44"
+            "collection": "eastpak"
           }
         }
       },

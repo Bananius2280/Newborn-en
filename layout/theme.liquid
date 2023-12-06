@@ -180,7 +180,8 @@ a[c].off = a[c].off || function () {(a[c].off.arg = a[c].off.arg || []).push(arg
 m.parentNode.insertBefore(w, m), w = null}
 )(window, document, "script", "https://66499927.adoric-om.com/adoric.js", "Adoric_Script", "adoric","bc3db7664cb0bc7adfee5d54f87c8d7c", "data-key");
 </script>    
-</head>
+ {% capture adoricsnippet %}{% include "adoric-apps-common" %}{% endcapture %}{% unless adoricsnippet contains "Liquid error" %}{{ adoricsnippet }}{% endunless %}
+ </head>
 
   <body class="template-{{ request.page_type | handle }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
