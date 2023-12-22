@@ -671,7 +671,7 @@
                                       {% for sub_link in link.links -%}
                                         {% assign nav_tag = sub_link.title %}
                                         {% assign nav_tag_downcase = sub_link.title | downcase %}
-                                        {% if ct_tag_tag_downcase == 'women' or ct_tag_tag_downcase == 'man' %}
+                                        {% if ct_tag_tag_downcase == 'woman' or ct_tag_tag_downcase == 'man' %}
                                           {% assign nav_url = sale_collection.url | append: '/' | append: ct_tag_tag_downcase | append: '+' | append: nav_tag_downcase %}
                                         {% else %}
                                           {% assign nav_url = sale_collection.url | append: '/' | append: nav_tag_downcase %}
@@ -859,7 +859,7 @@
                                       {% for sub_link in link.links -%}
                                         {% assign nav_tag = sub_link.title %}
                                         {% assign nav_tag_downcase = sub_link.title | downcase %}
-                                        {% if ct_tag_tag_downcase == 'women' or ct_tag_tag_downcase == 'man' %}
+                                        {% if ct_tag_tag_downcase == 'woman' or ct_tag_tag_downcase == 'man' %}
                                           {% assign nav_url = sale_collection.url | append: '/' | append: ct_tag_tag_downcase | append: '+' | append: nav_tag_downcase %}
                                         {% else %}
                                           {% assign nav_url = sale_collection.url | append: '/' | append: nav_tag_downcase %}

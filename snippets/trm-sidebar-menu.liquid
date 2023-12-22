@@ -173,6 +173,7 @@
       </details-disclosure>
     </li>
       {%- for link in section.settings.menu_sidebar.links -%}
+        {% if link.title != 'Brands' %}
         <li>
           {%- if link.links != blank -%}
             <details-disclosure>
@@ -216,6 +217,7 @@
             </a>
           {%- endif -%}
         </li>
+        {%- endif -%}
       {%- endfor -%}
   {% assign sale_collection = collections['sale'] %}
   {% assign cur_tags = sale_collection.all_tags %}
